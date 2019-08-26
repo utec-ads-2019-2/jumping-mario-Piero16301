@@ -66,5 +66,7 @@ int main() {
     for (int k = 0; k < iteraciones; k++) {
         cout << "Case " << k+1 << ": " << highJumps(jumps[k]) << ' ' << lowJumps(jumps[k]) << '\n';
     }
+    
+    return 0;
 
 }
